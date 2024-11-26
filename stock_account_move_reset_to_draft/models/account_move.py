@@ -29,7 +29,8 @@ class AccountMove(models.Model):
                 ):
                     raise UserError(
                         _(
-                            "Inventory valuation records are intertwined for %(line_name)s.",
+                            "Inventory valuation records are intertwined for \
+                            %(line_name)s.",
                             line_name=line.display_name,
                         )
                     )

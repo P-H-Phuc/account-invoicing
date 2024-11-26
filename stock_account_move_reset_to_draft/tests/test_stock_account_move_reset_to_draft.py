@@ -156,7 +156,8 @@ class TestStockAccountMoveResetToDraft(BaseCommon):
             invoice_extra.invoice_line_ids.stock_valuation_layer_ids.value, 8
         )
         self.assertTrue(invoice.show_reset_to_draft_button)
-        # Reset the first bill to draft -> User error to prevent valuation inconsistencies
+        # Reset the first bill to draft -> User error to prevent valuation
+        # inconsistencies
         with self.assertRaises(UserError):
             invoice.button_draft()
         # Delivery 1 pc
