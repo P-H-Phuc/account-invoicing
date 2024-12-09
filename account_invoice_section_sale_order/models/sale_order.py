@@ -60,7 +60,9 @@ class SaleOrder(models.Model):
                         )
                     )
                     sequence += 10
-                for move_line in self.env["account.move.line"].browse(move_line_ids):
+                for move_line in (
+                    self.env["account.move.line"].sudo().browse(move_line_ids)
+                ):
                     if move_line.display_type == "line_section":
                         # add extra indent for existing SO Sections
                         move_line.name = f"- {move_line.name}"
