@@ -72,6 +72,9 @@ Contributors
 - Denis Roussel <denis.roussel@acsone.eu>
 - Rattapong Chokmasermkul <rattapongc@ecosoft.co.th>
 - Dhara Solanki <dhara.solanki@initos.com>
+- `Heliconia Solutions Pvt. Ltd. <https://www.heliconia.io>`__
+
+  - Bhavesh Heliconia
 
 Maintainers
 -----------
