@@ -66,6 +66,9 @@ Contributors
   - Iván Todorovich <ivan.todorovich@camptocamp.com>
 
 - Alberto Nieto <alberto.nieto@braintec.com> (https://braintec.com)
+- `Heliconia Solutions Pvt. Ltd. <https://www.heliconia.io>`__
+
+  - Bhavesh Heliconia
 
 Maintainers
 -----------
