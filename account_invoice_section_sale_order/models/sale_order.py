@@ -20,7 +20,9 @@ class SaleOrder(models.Model):
         for invoice in invoices.sudo():
             if invoice.line_ids and (
                 not invoice.company_id.always_create_invoice_section
-                and len(invoice.line_ids.mapped(invoice.line_ids._get_section_grouping()))
+                and len(
+                    invoice.line_ids.mapped(invoice.line_ids._get_section_grouping())
+                )
                 == 1
             ):
                 continue

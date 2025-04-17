@@ -1,13 +1,13 @@
 from odoo.tests import tagged
-from odoo.tests.common import SavepointCase
+
+from odoo.addons.base.tests.common import BaseCommon
 
 
 @tagged("-at_install", "post_install")
-class Common(SavepointCase):
+class Common(BaseCommon):
     @classmethod
     def setUpClass(cls):
         super().setUpClass()
-        cls.env = cls.env(context=dict(cls.env.context, tracking_disable=True))
         cls.setUpClassOrder()
 
     @classmethod

@@ -23,10 +23,8 @@ class TestInvoiceGroupBySaleOrder(Common):
             20: ("order 1 line 1", "product"),
             30: ("order 1 line 2", "product"),
             40: (self.order2_p1.name, "line_section"),
-            50: ("- order 2 section 1", "line_section"),
-            60: ("order 2 line 1", "product"),
-            70: ("- order 2 section 2", "line_section"),
-            80: ("order 2 line 2", "product"),
+            50: ("order 2 line 1", "product"),
+            60: ("order 2 line 2", "product"),
         }
         invoice_ids = (self.order1_p1 + self.order2_p1)._create_invoices()
         lines = invoice_ids[0].invoice_line_ids.sorted("sequence")
@@ -102,13 +100,11 @@ class TestInvoiceGroupBySaleOrder(Common):
                 10: ("Mocked value from ResUsers", "line_section"),
                 20: ("order 1 line 1", "product"),
                 30: ("order 1 line 2", "product"),
-                40: ("- order 2 section 1", "line_section"),
-                50: ("order 2 line 1", "product"),
-                60: ("- order 2 section 2", "line_section"),
-                70: ("order 2 line 2", "product"),
-                80: ("Mocked value from ResUsers", "line_section"),
-                90: ("order 3 line 1", "product"),
-                100: ("order 3 line 2", "product"),
+                40: ("order 2 line 1", "product"),
+                50: ("order 2 line 2", "product"),
+                60: ("Mocked value from ResUsers", "line_section"),
+                70: ("order 3 line 1", "product"),
+                80: ("order 3 line 2", "product"),
             }
             for line in invoice.invoice_line_ids.sorted("sequence"):
                 if line.sequence not in result:
