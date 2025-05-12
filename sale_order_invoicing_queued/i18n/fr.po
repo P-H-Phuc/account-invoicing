@@ -6,34 +6,36 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2025-05-12 08:21+0000\n"
+"Last-Translator: \"Benjamin Willig (ACSONE)\" <benjamin.willig@acsone.eu>\n"
 "Language-Team: none\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.10.4\n"
 
 #. module: sale_order_invoicing_queued
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_queue_job_sale_order_invoicing
 msgid "Cancel"
-msgstr ""
+msgstr "Annuler"
 
 #. module: sale_order_invoicing_queued
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_sale_advance_payment_inv
 msgid "Enqueue Invoicing"
-msgstr ""
+msgstr "Créer en tâche de fond"
 
 #. module: sale_order_invoicing_queued
 #: model:ir.model.fields,field_description:sale_order_invoicing_queued.field_sale_order__invoicing_job_ids
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_order_form_invoicing_queued
 msgid "Invoicing Jobs"
-msgstr ""
+msgstr "Tâches de facturation"
 
 #. module: sale_order_invoicing_queued
 #: model_terms:ir.ui.view,arch_db:sale_order_invoicing_queued.view_queue_job_sale_order_invoicing
 msgid "Requeue"
-msgstr ""
+msgstr "Relancer"
 
 #. module: sale_order_invoicing_queued
 #: model:ir.model,name:sale_order_invoicing_queued.model_sale_advance_payment_inv
@@ -43,7 +45,7 @@ msgstr ""
 #. module: sale_order_invoicing_queued
 #: model:ir.model,name:sale_order_invoicing_queued.model_sale_order
 msgid "Sales Order"
-msgstr ""
+msgstr "Commandes de vente"
 
 #. module: sale_order_invoicing_queued
 #. odoo-python
@@ -53,3 +55,5 @@ msgid ""
 "There's already an enqueued job for invoicing the sales order %s. Please "
 "wait until it's finished or remove it from the selection."
 msgstr ""
+"Il y a déjà une tâche dans la liste d'attente pour la commande de vente %s. "
+"Veuillez attendre qu'elle se termine ou supprimez la de la sélection."
