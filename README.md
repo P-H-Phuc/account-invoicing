@@ -24,7 +24,7 @@ addon | version | maintainers | summary
 [account_billing](account_billing/) | 14.0.1.0.3 | <a href='https://github.com/Saran440'><img src='https://github.com/Saran440.png' width='32' height='32' style='border-radius:50%;' alt='Saran440'/></a> | Group invoice as billing before payment
 [account_global_discount](account_global_discount/) | 14.0.1.1.0 |  | Account Global Discount
 [account_invoice_alternate_payer](account_invoice_alternate_payer/) | 14.0.1.0.1 |  | Set a alternate payor/payee in invoices
-[account_invoice_auto_send_by_email](account_invoice_auto_send_by_email/) | 14.0.1.0.0 |  | Invoice with the email transmit method are send automatically.
+[account_invoice_auto_send_by_email](account_invoice_auto_send_by_email/) | 14.0.1.0.1 |  | Invoice with the email transmit method are send automatically.
 [account_invoice_base_invoicing_mode](account_invoice_base_invoicing_mode/) | 14.0.1.2.2 |  | Base module for handling multiple invoicing mode
 [account_invoice_block_payment](account_invoice_block_payment/) | 14.0.1.0.0 |  | Module to block payment of invoices
 [account_invoice_blocking](account_invoice_blocking/) | 14.0.1.0.1 |  | Set a blocking (No Follow-up) flag on invoices
