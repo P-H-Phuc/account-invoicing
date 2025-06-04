@@ -30,6 +30,7 @@ setuptools.setup(
         'odoo-addon-account_invoice_line_default_account>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_mass_sending>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_merge>=16.0dev,<16.1dev',
+        'odoo-addon-account_invoice_partner_reference>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_payment_retention>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_payment_term_date_due>=16.0dev,<16.1dev',
         'odoo-addon-account_invoice_pricelist>=16.0dev,<16.1dev',
