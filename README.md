@@ -34,7 +34,7 @@ addon | version | maintainers | summary
 [account_invoice_date_due](account_invoice_date_due/) | 14.0.1.0.1 | <a href='https://github.com/luisg123v'><img src='https://github.com/luisg123v.png' width='32' height='32' style='border-radius:50%;' alt='luisg123v'/></a> <a href='https://github.com/joao-p-marques'><img src='https://github.com/joao-p-marques.png' width='32' height='32' style='border-radius:50%;' alt='joao-p-marques'/></a> | Update Invoice's Due Date
 [account_invoice_discount_display_amount](account_invoice_discount_display_amount/) | 14.0.1.0.0 |  | Show total discount applied and total without discount on invoices.
 [account_invoice_fiscal_position_update](account_invoice_fiscal_position_update/) | 14.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Changing the fiscal position of an invoice will auto-update invoice lines
-[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.3 |  | Allows to apply fixed amount discounts in invoices.
+[account_invoice_fixed_discount](account_invoice_fixed_discount/) | 14.0.1.0.4 |  | Allows to apply fixed amount discounts in invoices.
 [account_invoice_force_number](account_invoice_force_number/) | 14.0.1.0.1 |  | Allows to force invoice numbering on specific invoices
 [account_invoice_google_document_ai](account_invoice_google_document_ai/) | 14.0.1.0.0 |  | Allows to import data from document using Google Document AI
 [account_invoice_google_document_ai_purchase](account_invoice_google_document_ai_purchase/) | 14.0.1.0.0 |  | Integration with purchase
