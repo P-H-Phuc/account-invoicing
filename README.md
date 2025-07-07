@@ -46,6 +46,7 @@ addon | version | maintainers | summary
 [account_invoice_mode_daily](account_invoice_mode_daily/) | 14.0.1.0.0 | <a href='https://github.com/mt-software-de'><img src='https://github.com/mt-software-de.png' width='32' height='32' style='border-radius:50%;' alt='mt-software-de'/></a> | Create invoices automatically on a daily basis.
 [account_invoice_mode_monthly](account_invoice_mode_monthly/) | 14.0.1.2.0 |  | Create invoices automatically on a monthly basis.
 [account_invoice_mode_weekly](account_invoice_mode_weekly/) | 14.0.1.2.0 |  | Create invoices automatically on a weekly basis.
+[account_invoice_origin_link](account_invoice_origin_link/) | 14.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Add clickable link in invoice source document.
 [account_invoice_partner](account_invoice_partner/) | 14.0.1.0.0 |  | Replace the partner by an invoice contact if found
 [account_invoice_payment_retention](account_invoice_payment_retention/) | 14.0.1.2.0 |  | Account Invoice Payment Retention
 [account_invoice_pricelist](account_invoice_pricelist/) | 14.0.1.1.0 |  | Add partner pricelist on invoices
@@ -58,6 +59,7 @@ addon | version | maintainers | summary
 [account_invoice_refund_reason_skip_anglo_saxon](account_invoice_refund_reason_skip_anglo_saxon/) | 14.0.1.0.0 | <a href='https://github.com/ChrisOForgeFlow'><img src='https://github.com/ChrisOForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='ChrisOForgeFlow'/></a> | Account Invoice Refund Reason.
 [account_invoice_refund_reinvoice](account_invoice_refund_reinvoice/) | 14.0.1.0.0 |  | Allow to Reinvoice a Refund
 [account_invoice_restrict_linked_so](account_invoice_restrict_linked_so/) | 14.0.1.0.1 |  | Restricts editing the Product, Quantity and Unit Price columns for invoice lines that originated in Sales Orders.
+[account_invoice_sale_origin_link](account_invoice_sale_origin_link/) | 14.0.1.0.0 | <a href='https://github.com/GuillemCForgeFlow'><img src='https://github.com/GuillemCForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='GuillemCForgeFlow'/></a> | Add link to the Sale Order in invoice source document.
 [account_invoice_search_by_reference](account_invoice_search_by_reference/) | 14.0.1.0.0 |  | Account invoice search by reference
 [account_invoice_section_picking](account_invoice_section_picking/) | 14.0.1.0.0 |  | Extension of Acccount Invoice Section Sale Order to allow grouping of invoice lines according to delivery picking.
 [account_invoice_section_sale_order](account_invoice_section_sale_order/) | 14.0.1.3.2 |  | For invoices targetting multiple sale order addsections with sale order name.
