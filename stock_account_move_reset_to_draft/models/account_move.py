@@ -1,7 +1,7 @@
 # Copyright 2024 Tecnativa - Víctor Martínez
 # License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 
-from odoo import _, models
+from odoo import models
 from odoo.exceptions import UserError
 from odoo.tools.float_utils import float_is_zero
 
@@ -28,7 +28,7 @@ class AccountMove(models.Model):
                     > 1
                 ):
                     raise UserError(
-                        _(
+                        self.env._(
                             "Inventory valuation records are intertwined for \
                             %(line_name)s.",
                             line_name=line.display_name,
@@ -37,7 +37,7 @@ class AccountMove(models.Model):
                 for origin_svl in origin_svls:
                     if origin_svl.quantity != origin_svl.remaining_qty:
                         raise UserError(
-                            _(
+                            self.env._(
                                 "The inventory has already been (partially) consumed "
                                 "for %(line_name)s.",
                                 line_name=line.display_name,
