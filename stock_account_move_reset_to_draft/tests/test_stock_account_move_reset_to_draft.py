@@ -149,7 +149,9 @@ class TestStockAccountMoveResetToDraft(BaseCommon):
         self.assertTrue(invoice.show_reset_to_draft_button)
         # Reset the first bill to draft -> User error to prevent valuation
         # inconsistencies
-        with self.assertRaises(UserError):
+        with self.assertRaisesRegex(
+            UserError, "Inventory valuation records are intertwined"
+        ):
             invoice.button_draft()
 
     @mute_logger("odoo.models.unlink")
