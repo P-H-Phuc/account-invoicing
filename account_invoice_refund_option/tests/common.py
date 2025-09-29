@@ -7,22 +7,21 @@ class AccountInvoiceRefundOptionTest(common.TransactionCase):
     def setUp(self):
         super().setUp()
         # Useful models
-        self.account_invoice_obj = self.env["account.invoice"]
-        self.account_invoice_refund_obj = self.env["account.invoice.refund"]
+        self.account_move_obj = self.env["account.move"]
+        self.account_move_reversal_obj = self.env["account.move.reversal"]
 
         self.payment_term = self.env.ref("account.account_payment_term_advance")
         self.journalrec = self.env["account.journal"].search(
             [("type", "=", "sale")], limit=1
         )
         self.partner3 = self.env.ref("base.res_partner_3")
-        incom_account = self.env.ref("account.data_account_type_revenue")
         account_id = (
             self.env["account.account"]
-            .search([("user_type_id", "=", incom_account.id)], limit=1)
+            .search([("account_type", "=", "income")], limit=1)
             .id
         )
 
-        self.invoice_line_data = [
+        self.move_line_data = [
             (
                 0,
                 0,
