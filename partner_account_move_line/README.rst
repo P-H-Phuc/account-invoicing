@@ -2,7 +2,7 @@
     :alt: License: AGPL-3
 
 =============================
-Res Partner Account Move Line
+Partner Account Move Line
 =============================
 
 This module adds a smart button on partner view to access the linked account
@@ -19,3 +19,5 @@ Contributors
 
 * Julien Weste
 * Druidoo <https://www.druidoo.io>
+* [Trobz](https://www.trobz.com)
+  * Phan Hong Phuc \<<phucph@trobz.com>\>
