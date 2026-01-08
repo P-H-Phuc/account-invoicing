@@ -10,7 +10,7 @@
             <xpath expr="//field[@name='invoice_warn_msg']" position="before">
                 <field
                     name="invoice_warn_option"
-                    domain="[('allowed_warning_type', '=', invoice_warn), ('allowed_warning_usage', 'in', ('all', 'partner_invoice_warn'))]"
+                    domain="['|', ('allowed_warning_type', '=', invoice_warn), ('allowed_warning_type', '=', False), ('allowed_warning_usage', 'in', ('all', 'partner_invoice_warn'))]"
                     context="{'default_allowed_warning_usage': 'partner_invoice_warn', 'default_allowed_warning_type': invoice_warn}"
                     invisible="invoice_warn in (False, 'no-message')"
                     placeholder="Select a warning option"
