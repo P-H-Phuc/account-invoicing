@@ -25,7 +25,7 @@ class PortalAccount(PortalAccount):
             date_end=date_end,
             sortby=sortby,
             filterby=filterby,
-            **kw
+            **kw,
         )
         response.qcontext.setdefault("searchbar_inputs", {})
         label_search = _("Search in Invoices & Bills")
