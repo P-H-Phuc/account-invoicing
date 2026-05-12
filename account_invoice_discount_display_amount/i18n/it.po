@@ -25,7 +25,6 @@ msgstr "<strong>Sconto</strong>"
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_bank_statement_line__discount_total
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move__discount_total
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move_line__discount_total
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_payment__discount_total
 msgid "Discount Total"
 msgstr "Totale sconto"
 
@@ -43,6 +42,5 @@ msgstr "Movimento contabile"
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_bank_statement_line__price_total_no_discount
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move__price_total_no_discount
 #: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_move_line__price_total_no_discount
-#: model:ir.model.fields,field_description:account_invoice_discount_display_amount.field_account_payment__price_total_no_discount
 msgid "Total Without Discount"
 msgstr "Totale senza sconto"
