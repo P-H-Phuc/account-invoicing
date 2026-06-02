@@ -122,7 +122,7 @@ class TestStockPickingInvoicing(TestStockPickingInvoicingCommon):
         self.check_invoice_created(picking, invoice)
         nb_invoice_after = self.env["account.move"].search_count([])
         self.assertEqual(nb_invoice_before, nb_invoice_after - len(invoice))
-        assert invoice.invoice_line_ids, "Error to create invoice line."
+        self.assertTrue(invoice.invoice_line_ids, "Error to create invoice line.")
         for inv_line in invoice.invoice_line_ids:
             # Test Price Unit informed by user
             self.assertEqual(

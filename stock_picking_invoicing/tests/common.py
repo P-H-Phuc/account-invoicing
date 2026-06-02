@@ -145,7 +145,9 @@ class TestStockPickingInvoicingCommon(TestAccountMoveStockCommon):
             for invoice in invoices:
                 if picking.picking_type_id != self.picking_type_in:
                     # TODO: Invoice created by Picking Type In don't get user, why?
-                    assert invoice.invoice_user_id, "Error to map User in Invoice."
+                    self.assertTrue(
+                        invoice.invoice_user_id, "Error to map User in Invoice."
+                    )
 
                 self.assertIn(invoice.partner_id, pickings.mapped("partner_id"))
                 self.assertIn(invoice, pickings.mapped("invoice_ids"))
@@ -163,7 +165,7 @@ class TestStockPickingInvoicingCommon(TestAccountMoveStockCommon):
                 )
 
                 for inv_line in invoice.invoice_line_ids:
-                    assert inv_line.price_unit, "Error to get Price Unit"
+                    self.assertTrue(inv_line.price_unit, "Error to get Price Unit")
 
                     self.assertTrue(
                         inv_line.product_uom_id,
