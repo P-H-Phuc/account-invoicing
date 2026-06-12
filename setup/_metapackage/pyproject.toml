@@ -1,6 +1,6 @@
 [project]
 name = "odoo-addons-oca-account-invoicing"
-version = "18.0.20260608.0"
+version = "18.0.20260612.0"
 dependencies = [
     "odoo-addon-account_billing==18.0.*",
     "odoo-addon-account_global_discount==18.0.*",
@@ -43,6 +43,7 @@ dependencies = [
     "odoo-addon-account_move_pivot_view==18.0.*",
     "odoo-addon-account_move_tier_validation==18.0.*",
     "odoo-addon-account_move_tier_validation_approver==18.0.*",
+    "odoo-addon-account_portal_invoice_search==18.0.*",
     "odoo-addon-account_receipt_journal==18.0.*",
     "odoo-addon-account_receipt_send==18.0.*",
     "odoo-addon-account_tax_group_widget_base_amount==18.0.*",
